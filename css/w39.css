@@ -1,0 +1,1083 @@
+
+/*=========================================*/
+/*=========STANDARD TAGS STYLING ==========*/ 
+/*=========================================*/
+
+html { 
+	font-size:100.01%;
+	width:100%;
+	height:100%;
+	margin-bottom:1px;
+	font-size: 15px;
+  }
+
+body {
+	font-family:Helvetica,  Arial, Verdana, sans-serif;
+	line-height:1.2em;
+	font-size:15px;
+	background: #EAECEF;
+	color:#707070;
+	width:100%;
+}
+
+a:link {
+	color:#7F7A00;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#625E00;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FFCC05;
+	text-decoration: underline;
+}
+
+a:focus { outline: 0; }
+
+
+
+p { font-size:1em; line-height:145%; margin-bottom:12px; }
+
+strong {font-weight:bold;}
+
+h1 { 
+}
+
+h2 { 
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#807B00;
+	font-size:2.533em;
+	margin-bottom:15px;
+	line-height:1.1em;
+}
+
+span.yellow {
+	font-weight:bold;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#FFCC05;
+	font-size:0.947em;
+}
+
+h3 {
+	color:#817C00;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	line-height:130%;
+	margin-bottom:12px;
+}
+
+h4 { 
+	color:#817C00;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	line-height:130%;
+	margin-bottom:12px;
+	margin-top:15px;
+}
+
+h5 {
+	color:#817C00;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.067em;
+	line-height:130%;
+	margin-bottom:10px;	
+}
+
+h6 {
+	
+}
+
+ul {
+	list-style-image:none;
+	list-style-position:inside;
+	list-style-type:none;
+}
+li {
+
+ }
+ 
+span.darkyellow {
+	color:#807B00;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+ 
+
+ /*=========================================*/
+/*============= RE-USED TAGS ===============*/ 
+/*=========================================*/
+
+/*To Clear Any Floats*/
+
+.clr {
+ clear:both;
+}
+
+.alt {
+	left:-6000px;
+	position:absolute;
+	top:-6000px;
+}
+
+.important {
+	font-weight:bold;
+	color:#817C00;
+}
+
+ /*=========================================*/
+/*========== LAYOUT STRUCTURE TAGS =========*/ 
+/*=========================================*/
+
+.wrapper {
+	margin:0 auto;
+	width:960px;
+	overflow:hidden;
+}
+
+
+#header {
+	background:#FFF;
+	overflow:hidden;
+}
+
+#main-menu {
+	background:url(../images/background-images/menu-tile.png) repeat-x;
+	height:28px;
+	padding:7px 0px 11px 0px;
+	width:100%;
+	text-align: center;
+}
+
+#main-content-area {
+	background:url(../images/background-images/grey-bg-tile.png) repeat-x;
+	overflow:hidden;
+	width:100%;
+}
+
+#banner {
+	background:url(../images/background-images/3-images-backgrou.png) no-repeat;
+	width:950px;
+	margin:13px auto 11px auto;
+	height:212px;
+	overflow:hidden;
+	padding:12px 0px 0px 10px;
+}
+
+#main-content {
+	margin:0px auto;
+	padding:15px 10px 0px 20px;
+	overflow:hidden;
+	background:url(../images/background-images/tile-white.png) repeat-y;		
+}
+
+#services {
+	width:960px;
+	overflow:hidden;
+	margin:10px auto 0px auto;
+}
+
+#sitemap {
+	margin:0px auto;
+	padding:3px 10px 0px 20px;
+	overflow:hidden;
+	background:url(../images/background-images/tile-white.png) repeat-y;			
+} 	
+
+#footer {
+	background:#817C00;
+	margin-top:30px;	
+	padding:10px 0px;
+}
+
+#copyright-info {
+	margin:10px auto 10px auto;
+	overflow:hidden;
+	width:960px;
+}
+		
+
+/*=========================================*/
+/*============ HEADER STYLING =============*/ 
+/*=========================================*/
+
+#header-left {
+	float:left;
+	width:570px;
+	padding-bottom:11px;
+}
+
+#logo {
+	float:left;
+	margin-top:12px;
+}
+
+#tagline {
+	float:left;
+	margin-left:-20px;
+	margin-top:87px;
+	display:inline;
+}
+
+#header-right {
+	float:right;
+	width:390px;
+	text-align:right;
+	padding-top: 2.1cm;
+}	
+
+#contact-details {
+	/*background:url(../images/background-images/contact-details-bg.png) no-repeat;*/
+	width:300px;
+	height:32px;
+	padding:7px 5px 7px 15px;
+	float:right;
+}
+
+span.email {
+	background:url(../images/background-images/mail-icon.png) no-repeat;
+	padding-left:45px;
+	margin-right:25px;
+	font-size:0.933em; 
+	height:23px;
+	display:block;
+	float:left;
+	padding-top:3px;
+}
+
+span.tel {
+	background:url(../images/background-images/phone-icon.png) no-repeat;
+	padding-left:30px;
+	font-size:0.933em;
+	height:22px;
+	padding-top:2px;
+	float:left;
+	display:block;
+}
+
+#newsletter {
+	margin-top:22px;
+	float:right;
+	text-align:left;
+}
+
+#newsletter a, #newsletter a:visited {
+	background:url(../images/background-images/sign-up-bck.png) no-repeat;
+	width:192px;	
+	display:block;
+	height:46px;
+	padding:9px 0px 0px 10px;
+	color:#FFF;
+}
+
+#newsletter a:hover {
+	background:url(../images/background-images/sign-up-bck-over.png) no-repeat;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#newsletter span.sign-up {
+	text-transform:uppercase;
+	font-size:0.907em;
+}
+
+#newsletter span.newsletter {
+	text-transform:uppercase;
+	font-size:1.2em;
+}
+
+/*=========================================*/
+/*=========== MAIN MENU STYLING ===========*/ 
+/*=========================================*/
+
+
+
+
+/*=========================================*/
+/*========= BANNER IMAGES AREA ============*/ 
+/*=========================================*/
+#banner h3 {
+	margin-bottom:9px;
+	color:#7F7A00;
+	font-weight:bold;
+	font-size:1.133em;
+}
+
+.image1 {
+	border:#E8EBEF 1px solid;
+	float:left;
+	width:304px;
+	height:198px;
+}
+
+.image1 .title-link {
+	background:url(../images/background-images/image-2-bg.png) no-repeat;
+	width:200px;
+	height:28px;
+	padding:7px 0px 0px 8px;
+	margin-top:-45px;
+	margin-left:10px;
+	position:absolute;
+	z-index:3;
+}
+
+a.find-more, a.find-more:visited {
+	/*background:url(../images/background-images/arrow-link.png) no-repeat left; padding-left:25px; font-size:0.8em;*/
+	background:none;
+	color:#807B00;	
+	margin-left:0px;
+	font-size:1em;
+}
+
+a.find-more:hover {
+	/*background:url(../images/background-images/arrow-link.png) no-repeat left; margin-left:3px;	padding-left:22px;*/
+	background:none;
+	color:#807B00;
+	
+	font-size:1em;
+}
+
+.image2 {
+	border:#E8EBEF 1px solid;
+	float:left;
+	width:304px;
+	margin-left:11px;
+	display:inline;
+	height:198px;
+}
+
+.image2 .title-link {
+	background:url(../images/background-images/image-2-bg.png) no-repeat;
+	width:271px;
+	height:28px;
+	padding:7px 0px 0px 8px;
+	margin-top:-45px;
+	margin-left:10px;
+	position:absolute;
+	z-index:3;
+}
+
+.image3 {
+	border:#E8EBEF 1px solid;
+	float:left;
+	display:inline;
+	margin-left:11px;
+	height:198px;
+	width:304px;
+}
+
+.image3 .testimonial {
+	padding:10px 7px 7px 7px;
+}
+
+.image3 .testimonial p {
+	padding-left:35px;
+	margin:0px;
+	margin-top:5px;
+	font-size:0.7em;
+}
+
+.image3 blockquote {
+	background:url(../images/background-images/quote.gif) no-repeat top left;
+	color:#8A8A8A;
+	font-size:0.8em;
+	line-height:140%;
+	padding-left:35px;
+}
+
+.image3 blockquote span {
+	background:url(../images/background-images/quote-btm.gif) no-repeat right bottom;
+	display:block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:30px;
+}
+
+.image3 .title-link {
+	background:url(../images/background-images/image-3-bg.png) no-repeat;
+	width:281px;
+	height:28px;
+	padding:7px 0px 0px 8px;
+	margin-top:-45px;
+	margin-left:10px;
+	position:absolute;
+	z-index:3;
+}
+
+.garden-image .testimonial {
+	padding:10px 7px 7px 7px;
+}
+
+.garden-image .testimonial p {
+	padding-left:35px;
+	margin:0px;
+	margin-top:5px;
+	font-size:0.7em;
+}
+
+.garden-image blockquote {
+	background:url(../images/background-images/quote.gif) no-repeat top left;
+	color:#8A8A8A;
+	font-size:0.8em;
+	line-height:140%;
+	padding-left:35px;
+}
+
+.garden-image blockquote span {
+	background:url(../images/background-images/quote-btm.gif) no-repeat right bottom;
+	display:block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:30px;
+}
+
+.customers-image .testimonial {
+	padding:10px 7px 7px 7px;
+}
+
+.customers-image .testimonial p {
+	padding-left:35px;
+	margin:0px;
+	margin-top:5px;
+	font-size:0.7em;
+}
+
+.customers-image blockquote {
+	background:url(../images/background-images/quote.gif) no-repeat top left;
+	color:#8A8A8A;
+	font-size:0.8em;
+	line-height:140%;
+	padding-left:35px;
+}
+
+.customers-image blockquote span {
+	background:url(../images/background-images/quote-btm.gif) no-repeat right bottom;
+	display:block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:30px;
+}
+
+
+/*=========================================*/
+/*=========== HOMEPAGE STYLING ============*/ 
+/*=========================================*/
+
+.top-curve {
+	background:url(../images/background-images/top-curve.png) no-repeat;
+	width:960px;
+	height:10px;
+}
+
+.btm-curve {
+	background:url(../images/background-images/btm-curve.png) no-repeat;
+	width:960px;
+	height:15px;
+}
+
+.left-home-content {
+	width:610px;
+	float:left;
+	overflow:hidden;
+}
+
+.right-home-content {
+	margin-left:20px;
+	float:left;
+	display:inline;
+	width:300px;
+	overflow:hidden;
+}
+
+.community {
+	background:url(../images/background-images/community-bg.png) no-repeat;
+	width:272px; /*296px;*/
+	height:110px; /*120px*/
+	padding:10px 11px 0px 13px;
+	margin-bottom:11px;
+}
+
+.community .text {
+	float:left;
+	width:180px;
+}
+
+.community .text h3 {
+	font-size:1.4em;
+	margin-bottom:7px;
+	line-height:100%;
+}
+
+.community .text p {
+	color:#807B00;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1em;
+	margin-bottom:9px;
+	margin-left:2px;
+	line-height:105%;
+}
+
+.community .image {
+	float:right;
+	background:url(../images/background-images/community-image-bg.png) no-repeat;
+	width:71px;
+	height:71px;
+	padding:16px 0px 0px 17px;
+}
+
+.community a.green-btn:link, .community a.green-btn:visited {
+	color:#FFF;
+	background:url(../images/page-elements/green-button-bg.png) no-repeat;
+	width:119px;
+	height:25px;
+	display:block;
+	font-size:0.933em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 0px 0px 8px;
+}
+
+.community a.green-btn:hover {
+	background:url(../images/page-elements/green-button-over.png) no-repeat;
+	text-decoration:none;
+}
+
+.new-service {
+	background:url(../images/background-images/new-service-bg.png) no-repeat;
+	height:95px;
+	width:272px; /*296px;*/
+	padding:10px 11px 0px 13px;
+}
+
+.new-service h3 {
+	font-size:1.4em;
+	margin-bottom:7px;
+	line-height:100%;
+	color:#DD8500;
+}
+
+.new-service p {
+	color:#DD8500;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1em;
+	margin-bottom:9px;
+	margin-left:2px;
+	line-height:105%;
+}
+
+.new-service a.orange-btn:link, .new-service a.orange-btn:visited {
+	color:#FFF;
+	background:url(../images/page-elements/orange-button-bg.png) no-repeat;
+	width:119px;
+	height:25px;
+	display:block;
+	font-size:0.933em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 0px 0px 8px;
+}
+
+.new-service a.orange-btn:hover {
+	background:url(../images/page-elements/orange-button-over.png) no-repeat;
+	text-decoration:none;
+}
+
+/*=========================================*/
+/*=========== INNERPAGE STYLING ===========*/ 
+/*=========================================*/
+
+#left {
+	float:left;
+	width:265px;
+}
+
+#left .service-row {
+	clear:both;
+	margin:0px 0px 10px 0px;
+	overflow:hidden;
+}
+
+#left .service {
+	width:130px;
+	background:none;
+	margin-right:0px;
+	float:left;
+}
+
+#left #contact {
+	overflow:hidden;
+}
+
+#left .sub-menu h4 {
+	font-size:1.333em;
+	margin-top:11px;
+	margin-bottom:15px;
+}
+
+#right {
+	float:right;
+	width:250px;
+}
+
+#right .service-row {
+	clear:both;
+	margin:0px 0px 10px 0px;
+	overflow:hidden;
+}
+
+#right .service {
+	width:130px;
+	background:none;
+	margin-right:0px;
+	float:left;
+}
+
+#right #contact {
+	overflow:hidden;
+}
+
+#right #sub-menu {
+	margin-bottom: 30px;
+}
+
+#right #sub-menu h3 {
+	font-size:1.333em;
+	margin-top:11px;
+	margin-bottom:9px;
+}
+
+#right ul {
+	margin-left: 10px;
+}
+
+#right ul li {
+	margin-bottom: 7px;
+}
+
+#contact .image {
+	float:left;
+	width:70px;
+}
+
+#contact .content {
+	float:left;
+	width:175px;
+}
+
+#contact h4 {
+	font-size:1.333em;
+	margin-top:0px;
+	margin-bottom:7px;
+}
+
+#contact a:link, #contact a:visited {
+	padding-right:10px;
+	color:#707070;
+}
+
+#contact span {
+	background:url(../images/background-images/arrow-link-grey.gif) no-repeat right bottom;
+}
+
+#contact span.green {
+	color:#817C00;
+	background:none;
+}
+
+.sub-menu ul {
+	margin-right:20px;
+	margin-bottom:30px;
+}
+
+.sub-menu li {
+	padding:6px 0px 5px 6px;
+	border-bottom:1px solid #EAECEF;
+}
+
+.sub-menu li a:link, .sub-menu li a:visited {
+	color:#707070;	
+	background:url(../images/background-images/arrow-link-green.gif) no-repeat left 40%;
+	padding-left:25px;
+	font-size:0.933em;
+}
+
+.sub-menu li a:hover {
+	color:#7F7A00;
+	margin-left:5px;
+	padding-left:20px;
+}
+
+.sub-menu li.active a  {
+	color:#7F7A00;
+}
+
+#inner-content {
+	float:left;
+	width:585px;
+	padding-left:40px;
+	padding-right:40px;
+	background:url(../images/background-images/inner-shadow.png) no-repeat;
+}
+
+#inner-content ul {
+	margin-left:10px;
+	margin-bottom:15px;
+}
+
+#inner-content li {
+	line-height:145%;
+	padding:0px 0px 0px 18px;
+	margin-bottom:5px;
+	background:url(../images/background-images/bullet.png) no-repeat left top;
+}
+
+#inner-content h3 {
+	margin-top:30px;
+	font-size:1.467em;
+}
+
+#inner-content .icon {
+	float:right;
+	margin-top:-70px;
+	margin-right:-40px;
+	padding:10px 0px 0px 15px;
+	background:url(../images/background-images/icon-bg.png) no-repeat;
+	width:87px;
+	display:inline;
+	height:92px;
+}
+
+#inner-content .member {
+	overflow:hidden;
+	clear:both;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#inner-content .member .image {
+	float:left;
+	width:110px;
+	border:1px solid #EAECEF;
+	padding:10px 0px;
+	text-align:center;
+}
+
+#inner-content .member .content {
+	float:left;
+	width:420px;
+	margin-left:20px;
+	display:inline;
+}
+
+#inner-content .member .content h3 {
+	margin-top:-5px;
+	margin-bottom:7px;
+}
+
+/*SERVICES PAGE 6 ICONS*/
+
+#service-icons {
+	overflow:hidden;
+	clear:both;
+	margin-top:25px;
+}
+
+#service-icons .service-row {
+	clear:both;
+	margin:0px 0px 15px 0px;
+	overflow:hidden;
+}
+
+#service-icons .service {
+	width:152px;
+	margin-right:15px;
+	float:left;
+}
+
+
+/*=========================================*/
+/*============== SERVICES =================*/ 
+/*=========================================*/
+
+.service {
+	background:url(../images/background-images/service-icon-bg.png) no-repeat;
+	width:128.6px;
+	height:122px;
+	margin-right:10px;
+	float:left;
+	text-align:center;
+}
+
+
+/*=========================================*/
+/*=========== SITEMAP STYLING =============*/ 
+/*=========================================*/
+
+.sitemap1 {
+	float:left;
+	width:290px;
+	overflow:hidden;
+}
+
+.sitemap2 {
+	float:left;
+	margin-left:30px;
+	display:inline;
+	width:290px;
+	overflow:hidden;
+}
+
+.sitemap3 {
+	float:left;
+	margin-left:30px;
+	display:inline;
+	overflow:hidden;
+}
+
+#sitemap h3 {
+	color:#181818;
+	font-size:0.8em;
+	margin-bottom:8px;
+}
+
+#sitemap a:link, #sitemap a:visited {
+	color:#707070;
+	font-size:0.8em;
+	padding-left:18px;
+	margin-left:0px;
+	background:url(../images/background-images/link-left.gif) no-repeat left;
+}
+
+#sitemap a:hover {
+	color:#625E00;
+	text-decoration:none;
+	margin-left:3px;
+	padding-left:15px;
+}
+
+
+
+/*=========================================*/
+/*============== FOOTER STYLING ===========*/ 
+/*=========================================*/
+
+#footer .address {
+	float:left;
+	color:#FFF;
+	font-size:0.933em;
+	line-height:145%;
+}
+
+#footer .margin1 {
+	margin-right:25px;
+}
+		
+#footer a:link, #footer a:visited, #footer a:hover {
+	color:#FFF;
+}
+
+#footer a:hover {
+	 color:#FFF;
+ }
+
+#footer .menu-bottom-right {
+	float:right;
+	margin-top:20px;
+}
+
+#footer .menu-bottom-right li {
+	float:left;
+	overflow:hidden;
+}
+
+#footer .menu-bottom-right li a {
+	float:left;
+	color:#FFF;
+	background:url(../images/background-images/divider-footer.png) no-repeat 100% 28%;
+	padding-right:15px;
+	padding-left:15px;
+	font-size:0.933em;
+	line-height:145%;
+}
+
+#footer .menu-bottom-right li.last a {
+	float:left;
+	color:#FFF;
+	background:none;
+	padding-right:0px;
+}
+
+#footer .copyright {
+	float:right;
+	color:#FFF;
+	font-size:0.933em;
+	line-height:145%;
+	text-align: right;
+}
+
+
+/*=========================================*/
+/*========== COPYRIGHT STYLING ============*/ 
+/*=========================================*/
+
+.accreditations {
+	float:left;
+	width:960px;
+}
+
+/*.copyright {
+	float:right;
+	width:960px;
+	color:#707070;
+	text-align:right;
+	font-size:0.867em;
+}
+
+.copyright a:link, .copyright a:visited {
+	color:#928C00;
+	padding-right:5px;
+}
+
+.copyright a:hover {
+	color:#A7A101;
+}*/
+
+/*=========================================*/
+/*============ MENUS STYLING ==============*/ 
+/*=========================================*/
+
+/*MAIN MENU*/
+#main-menu ul{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 auto;
+	display: inline-block;
+	/*float:right;*/
+}
+
+#main-menu li {
+	float:left;
+	font-size:1.067em;
+	background:url(../images/background-images/menu-left-divider.png) left top no-repeat;
+    margin-left:2px;
+}
+
+#main-menu a, #main-menu a:visited {
+	float:left;
+	color:#FFF;	
+	height:22px;
+	display:block;
+	padding:6px 15px 0px 15px;
+
+}
+
+#main-menu a:hover, #main-menu li.active a {
+	background:url(../images/background-images/tab-left-yellow.png) top left no-repeat;	
+	text-decoration:none;
+	color:#6E6D1B;
+}
+
+#main-menu li:hover, #main-menu li.p7hvr, #main-menu li.active {
+	background:url(../images/background-images/tab-right-yellow.png) top right no-repeat;
+}
+
+/*SUB MENU*/
+
+/*=========================================*/
+/*========= ADDITIONAL STYLING ============*/ 
+/*=========================================*/
+
+#main-content #services {
+	margin-top: 20px;
+}
+
+#main-content #services h2 {
+	margin: 0 auto;
+}
+
+#main-content #services ul {
+	list-style-type: disc;
+}
+
+#main-content #services li {
+	padding: 5px 10px;
+}
+
+#main-content #social {
+	margin-top: 20px;
+}
+
+#main-content #social h2 {
+	margin: 0 auto;
+}
+
+#main-content #social li {
+	padding: 5px 10px;
+	float: left;
+}
+
+.blog-title {
+	margin-bottom: 5px;
+}
+
+.blog-date {
+	font-size: 0.95em;
+	font-weight: bold;
+	float: right;
+	margin: 5px 7px 5px 5px;
+}
+
+a.blog-green-btn:link, a.blog-green-btn:visited {
+	color:#FFF;
+	background:url(../images/page-elements/green-button-bg.png) no-repeat;
+	width:119px;
+	height:25px;
+	display:block;
+	font-size:0.933em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 0px 0px 8px;
+}
+
+a.blog-green-btn:hover {
+	background:url(../images/page-elements/green-button-over.png) no-repeat;
+	text-decoration:none;
+}
+
+a.blog-orange-btn:link, a.blog-orange-btn:visited {
+	color:#FFF;
+	background:url(../images/page-elements/orange-button-bg.png) no-repeat;
+	width:119px;
+	height:25px;
+	display:block;
+	font-size:0.933em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 0px 0px 8px;
+}
+
+a.blog-orange-btn:hover {
+	background:url(../images/page-elements/orange-button-over.png) no-repeat;
+	text-decoration:none;
+}
+
+.garden-image {
+	padding: 5px;
+	padding-top: 175px;
+}
+
+.customers-image {
+	padding: 5px;
+	padding-top: 100px;
+}
+
+.hidden {
+	visibility: hidden;
+	line-height: 0;
+	max-height: 0;
+	max-width: 0;
+	overflow: hidden
+	
+}

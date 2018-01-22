@@ -1,0 +1,28 @@
+#main-content {
+	background:url(../images/background-images/white-tile-ie.gif) repeat-y;
+	height:100%;
+}
+
+#sitemap {
+	background:url(../images/background-images/white-tile-ie.gif) repeat-y;	
+	height:100%;
+}
+
+.top-curve {
+	background:url(../images/background-images/top-curve-solid.gif) no-repeat !important;
+	margin-top:0px;
+	display:block;
+	overflow:hidden;
+}
+
+#banner {
+	margin-bottom:10px;
+}
+
+#tagline img {
+	display:block;
+}
+
+#tagline {
+	position:absolute;
+}
