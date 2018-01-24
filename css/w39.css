@@ -619,7 +619,8 @@ a.find-more:hover {
 
 #right {
 	float:right;
-	width:250px;
+	width:200px;
+	margin: 0 40px 0 10px;
 }
 
 #right .service-row {
@@ -1071,6 +1072,7 @@ a.blog-orange-btn:hover {
 .customers-image {
 	padding: 5px;
 	/*padding-top: 100px;*/
+	width: 100%;
 }
 
 .hidden {
