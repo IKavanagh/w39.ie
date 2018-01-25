@@ -793,9 +793,17 @@ a.find-more:hover {
 }
 
 #service-icons .service {
-	width:152px;
-	margin-right:15px;
+	/*width:152px;*/
+	margin-right: 50px;
 	float:left;
+}
+
+#service-icons .service:last-of-type {
+	margin-right: 0px;
+}
+
+#service-icons img {
+	width: 250px;
 }
 
 
@@ -804,9 +812,9 @@ a.find-more:hover {
 /*=========================================*/
 
 .service {
-	background:url(../images/background-images/service-icon-bg.png) no-repeat;
-	width:128.6px;
-	height:122px;
+	/*background:url(../images/background-images/service-icon-bg.png) no-repeat;*/
+	/*width:128.6px;*/
+	/*height:122px;*/
 	margin-right:10px;
 	float:left;
 	text-align:center;
