@@ -3,6 +3,9 @@
 /*=========STANDARD TAGS STYLING ==========*/ 
 /*=========================================*/
 
+/* Yellow: #DCAA00 */
+/* Green: #7A701F */
+
 html { 
 	font-size:100.01%;
 	width:100%;
@@ -31,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-	color:#FFCC05;
+	color:#DCAA00;
 	text-decoration: underline;
 }
 
@@ -57,7 +60,7 @@ h2 {
 span.yellow {
 	font-weight:bold;
 	font-family:Helvetica, Arial, sans-serif;
-	color:#FFCC05;
+	color:#DCAA00;
 	font-size:0.947em;
 }
 
