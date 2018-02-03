@@ -61,6 +61,13 @@ span.yellow {
 	font-size:0.947em;
 }
 
+span.green {
+	font-weight:bold;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#807B00;
+	font-size:0.947em;
+}
+
 h3 {
 	color:#817C00;
 	font-family:Georgia, "Times New Roman", Times, serif;
