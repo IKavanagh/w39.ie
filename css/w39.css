@@ -768,7 +768,7 @@ a.find-more:hover {
 #inner-content .member .image {
 	float:left;
 	width:110px;
-	border:1px solid #EAECEF;
+	/*border:1px solid #EAECEF;*/
 	padding:10px 0px;
 	text-align:center;
 }
