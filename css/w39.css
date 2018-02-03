@@ -158,7 +158,7 @@ span.darkyellow {
 	height:28px;
 	padding:7px 0px 11px 0px;
 	width:100%;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #main-content-area {
@@ -970,16 +970,16 @@ a.find-more:hover {
 	list-style-image:none;
 	list-style-position:outside;
 	list-style-type:none;
-	margin:0 auto;
-	display: inline-block;
-	/*float:right;*/
+	margin:0px;
+	/*display: inline-block;*/
+	float:right;
 }
 
 #main-menu li {
 	float:left;
 	font-size:1.067em;
 	background:url(../images/background-images/menu-left-divider.png) left top no-repeat;
-    margin-left:2px;
+    /*margin-left:2px;*/
 }
 
 #main-menu a, #main-menu a:visited {
