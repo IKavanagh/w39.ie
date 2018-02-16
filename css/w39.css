@@ -1001,7 +1001,7 @@ a.find-more:hover {
 }
 
 #main-menu li:hover, #main-menu li.p7hvr, #main-menu li.active {
-	background:url(../images/background-images/tab-right-yellow.png) top right no-repeat;
+	background:url(../images/background-images/tab-right-yellow.png) top right repeat;
 }
 
 /*SUB MENU*/
